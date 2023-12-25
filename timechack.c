@@ -12,11 +12,11 @@ int main(){
         printf("Error! you enter worng time.");
     }
     else{
-        
+
         do{
 
             printf("current time is: %d : %d : %d\n", hours, mint, second);
-            
+
             if(second > 59){
                 mint++;
                 second = 0;
